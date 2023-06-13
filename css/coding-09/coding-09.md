@@ -1,5 +1,7 @@
 # 09 Basic Selectors Practice
 
+---
+
 It's time to get some practice with the new CSS Selectors we just learned. <br/>
 
 Without touching any of the starter HTML code in index.html, write CSS in app.css according to these rules: <br/>

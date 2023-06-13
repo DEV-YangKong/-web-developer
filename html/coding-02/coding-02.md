@@ -1,5 +1,7 @@
 # 02 Favorite Movies Exercises
 
+---
+
 It's time to practice working with ordered and unordered lists.<br/>
 
 In the index.html file, you will find some existing markup.<br/>

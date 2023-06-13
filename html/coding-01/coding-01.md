@@ -1,5 +1,7 @@
 # 01 Pangolin Practice
 
+---
+
 Let's get a little bit of practice with heading and paragraph elements.<br/>
 
 In the index.html file, you'll find some starter text.<br/>

@@ -1,5 +1,7 @@
 # 04 Snowman Logo Exercise
 
+---
+
 It's time for more practice! <br/>
 
 Please write an <h1> element to recreate the following image: <br/>

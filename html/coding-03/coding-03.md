@@ -1,5 +1,7 @@
 # 03 Wolf Images & Links Exercise
 
+---
+
 Let's get some practice with HTML Images and Anchor Elements.<br/>
 
 In the index.html file, you will find some existing markup.<br/>

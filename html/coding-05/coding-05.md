@@ -1,5 +1,7 @@
 # 05 Table Practice Exercise
 
+---
+
 It's time to get some practice with all those table-related elements! (yikes) <br/>
 
 Your goal is to create a 3x3 table, with proper headings. <br/>

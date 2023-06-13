@@ -1,5 +1,7 @@
 # 06 Forms Practice Exercise
 
+---
+
 Let's get some practice with forms, inputs, labels, and buttons! Write a simple form with the following inputs: <br/>
 
 Username <br/>

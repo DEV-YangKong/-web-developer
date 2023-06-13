@@ -1,5 +1,7 @@
 # 08 Hipster Logo Exercise
 
+---
+
 I'm opening up a very hip artisanal vodka company called Purple Grain. <br/>
 
 Please help complete my incredibly ugly logo. Style the <h1> with the following styles: <br/>

@@ -1,5 +1,7 @@
 # 07 Our First CSS Exercise
 
+---
+
 Time for some basic CSS practice! <br/>
 
 I've provided you with some basic HTML markup in index.html, please don't touch it! <br/>
