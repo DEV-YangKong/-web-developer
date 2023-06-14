@@ -4,6 +4,8 @@
 
 ## It is a repository that organizes and records what I have studied through lectures, books, YouTube, googling, and GitHub.
 
+---
+
 ## tons of tools and technologies including:
 
 - HTML5
