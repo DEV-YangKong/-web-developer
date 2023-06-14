@@ -2,7 +2,7 @@
 
 ---
 
-The index.html file contains 25 <div> elements, each with the class of square. <br/>
+The index.html file contains 25 'div' elements, each with the class of square. <br/>
 
 Please create a simple checkerboard pattern by making the even squares black and the odd squares red. <br/>
 

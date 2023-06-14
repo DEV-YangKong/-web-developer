@@ -2,9 +2,7 @@
 
 ---
 
-Using what we just learned about the box model, <br/>
-
-width/height, and border... <br/>
+Using what we just learned about the box model, width/height, and border... <br/>
 
 Add some styles to the app. <br/>
 
