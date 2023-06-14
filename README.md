@@ -1,8 +1,10 @@
-# Repository of "The Web Developer Boot Camp 2023"
+# Repository of "The Web Developer"
 
 ---
 
-## Throughout the brand new version of the course we cover tons of tools and technologies including:
+## Throughout the brand new version of the course I cover tons of tools and technologies including:
+
+## 본 코스의 새 버전에서는 다음과 같은 수많은 툴과 기술을 다룹니다:
 
 - HTML5
 
