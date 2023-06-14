@@ -2,9 +2,9 @@
 
 ---
 
-## Throughout the brand new version of the course I cover tons of tools and technologies including:
+## It is a repository that organizes and records what I have studied through lectures, books, YouTube, googling, and GitHub.
 
-## 본 코스의 새 버전에서는 다음과 같은 수많은 툴과 기술을 다룹니다:
+## tons of tools and technologies including:
 
 - HTML5
 
