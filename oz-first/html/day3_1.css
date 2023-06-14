@@ -1,0 +1,12 @@
+.title{
+    background-color: red;
+}
+
+.box1 .title{
+    color: yellow;
+}
+
+.contents {
+    font-size: 18px;
+    font-style: italic;
+}

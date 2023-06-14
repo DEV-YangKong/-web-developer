@@ -1,0 +1,82 @@
+.intro{
+    position: relative;
+    background-image: url("../images/intro-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.intro_dark{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.67);
+}
+
+.intro_type {
+    display: flex;
+    gap: 0.32em;
+    font-size: 2.8em;
+    font-weight: bold;
+    color: white;
+    justify-content: center;
+    padding: 130px;
+}
+
+.intro_type .underscore {
+    animation: blink;
+    animation-duration: 350ms;
+    animation-iteration-count: infinite;
+    animation-duration: alternate;
+}
+
+
+
+@keyframes blink {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+[class^="intro_title"] {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+.intro_title_flip {
+    clip-path: pol
+}
+
+@media (max-width: 768px) {
+    .intro {
+        height: 100vh;
+    }
+    .introtype{
+        margin-top: 36vh;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .intro{
+        height: 500px;
+    }
+    .intro_type{
+        margin-top: 172px;
+        align-items: cenet;
+    }
+    .intro_type span{
+        display: inline-block;
+        vertical-align: middle;
+        margin-bottom: 0.25em;
+    }
+}

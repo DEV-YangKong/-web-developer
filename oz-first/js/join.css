@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    border: 2px solid gray;
+    padding: 10px 80px 30px; 
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    margin-bottom: 30px;
+}
+
+h1{
+    color: rgb(76, 18, 238);
+    font-size: 25px;
+}
+
+#email{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 40px;
+    font-display: ;
+}
+
+#name{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 40px;
+}
+
+#pw{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 40px;
+}
+
+#confirm_pw{
+    margin-bottom: 10px;
+    width: 350px;
+    height: 40px;
+}
+
+.num{
+    margin-bottom: 5px;
+
+}
+
+#tel{
+    border: 1px solid gray;
+    width: 101.5px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cert{
+    margin-bottom: 5px;
+    float: right;
+}
+
+span{
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#sp1{
+    color: blue;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#sp2{
+    color: blue;
+    font-size: 15px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+
+.cert1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#certsubmit{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: gray;
+    height: 30px;
+    width: 120px;
+}
+
+#certcheck{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: gray;
+    height: 30px;
+    width: 120px;
+}
+
+select{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 40px;
+}
+
+.gender{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+#join{
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    color: gray;
+    border: 1px solid gray;
+
+}
+
+.join_btn {
+    display: flex;
+    justify-content: center;
+}
+
+#back {
+    width: 100px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+#submit {
+    width: 100px;
+    height: 40px;
+}
+
+#region {
+    text-align: center;
+}
+
+

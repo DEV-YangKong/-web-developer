@@ -1,0 +1,239 @@
+@import url("./style/3_main.css");
+@import url("./style/4_about.css");
+
+
+body {
+    margin: 0;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.intro{
+    position: relative;
+    background-image: url("https://i.pinimg.com/originals/14/f7/b0/14f7b04d6048883fa4749556edf50891.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.intro_dark{
+    position: absolute;
+    height: 500px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.67);
+}
+
+.intro_type {
+    display: flex;
+    gap: 0.32em;
+    font-size: 2.8em;
+    font-weight: bold;
+    color: white;
+    justify-content: center;
+    padding: 130px;
+}
+
+.intro_type .underscore {
+    animation: blink;
+    animation-duration: 350ms;
+    animation-iteration-count: infinite;
+    animation-duration: alternate;
+}
+
+.intro_type .kiss {
+    animation: blink;
+    animation-duration: 350ms;
+    animation-iteration-count: infinite;
+    animation-duration: alternate;
+}
+
+
+@keyframes blink {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+[class^="intro_title"] {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 25%;
+    background-color: rgb(238, 152, 212);
+    clip-path: polygon(100% 90%, 100% 100%, 0 100%, 0 0);
+}
+
+
+.intro_title_flip {
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 90%);
+    opacity: 0.5;
+}
+
+@media (max-width: 768px) {
+    .intro {
+        height: 100vh;
+    }
+    .intro_type{
+        margin-top: 36vh;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .intro{
+        height: 500px;
+    }
+    .intro_type{
+        margin-top: 172px;
+        align-items: center;
+    }
+    .intro_type .span{
+        display: inline-block;
+        vertical-align: middle;
+        margin-bottom: 0.25em;
+    }
+}
+
+.header{
+    display: flex;
+    position: sticky;
+    /*스크롤이올라가면 컨텐츠 위로 올라오도록 설정해주는 코드*/
+    z-index: 2;
+    top: 0;
+    height: 72px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(247, 245, 180);
+}
+
+.header_homelink {
+    display: inline-block;
+    padding: 0 24px;
+    height: 72px;
+    line-height: 72px;
+    cursor: pointer;
+}
+
+.header_logo {
+    height: 48px;
+    vertical-align: middle;
+    margin-bottom: 4px;
+    font-size: 50px;
+}
+
+.header_nav_item {
+    font-size: 30px;
+}
+
+.header_nav_item a{
+    display: inline-block;
+    height: 72px;
+    line-height: 72px;
+}
+
+
+
+@media (max-width: 768px) {
+    .header_nav {
+        display: none;
+    }
+    .header_menu_btn{
+        all:unset;
+        display: block;
+        width: 72px;
+        height: 72px;
+        background-image: url(/images/menu-button.svg);
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .header_menu_btn:checked{
+        background-color: rgb(114, 0, 63);
+    }
+    
+    .header_menu_btn:checked + .header_nav {
+        display: inherit;
+        position: absolute;
+        top: 72px;
+        right: 0;
+        background-color: blueviolet;
+        padding-bottom: 1em;
+        box-shadow: 0 2px 2px rgba(255, 255, 255, 0.26);
+    }
+    
+    .header_nav_item{
+        width: 100vh;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .header_nav_item a {
+        width: 100vw;
+    }
+    
+    .header_nav_item:not(:last-child) {
+        border-bottom: 2px solid rgba(255, 255, 255, 0.06);
+    }    
+}
+
+@media (min-width: 769px) {
+    .header_nav_item {
+        display: inline-block;
+        position: relative;
+    }
+    .header_nav_item:last-child {
+        margin-right: 1.6em;
+    }
+    .header_nav_item a{
+        padding: 0 0.8em;
+    }
+    .header_nav_item ::after {
+        content: "";
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        width: 0;
+        height: 0;
+        background-color: white;
+        transition: all 350ms;
+    }
+    .header_nav_item:hover::after{
+        left: 0;
+        width: 100%;
+        height: 8px;
+    }
+    .header_menu_btn {
+        display:none;
+    }
+}
+
+.search {
+    position: relative;
+    width: 200px;
+    justify-content: center;
+    float: right;
+    right: 100px;
+}
+
+#text {
+    width: 100%;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+  
+#img {
+    position : absolute;
+    width: 17px;
+    top: 10px;
+    right: 12px;
+    margin: 0;
+  }
