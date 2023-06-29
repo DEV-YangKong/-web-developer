@@ -2,6 +2,12 @@
 
 This repository serves as a collection of my study materials, projects, and coding exercises related to frontend development. It is a comprehensive resource covering various aspects of web development, including HTML5, CSS3, JavaScript, ReactJS, and more.
 
+<br/>
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=DEV-Yangkong&repo=frontend-codebase&theme=gruvbox_light)](https://github.com/anuraghazra/github-readme-stats)
+
+<br/>
+
 ## Contents
 
 - HTML5: Building the structure of web pages
