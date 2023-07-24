@@ -13,9 +13,16 @@ while (userInput !== "quit" && userInput !== "q") {
     }
     console.log("******************************");
   } else if (userInput === "del") {
-    const delIndex = prompt("Enter index of Todo to delete");
-    console.log(`Todo[${delIndex}] ${toDo[delIndex]} removed`);
-    toDo.splice(delIndex, 1);
+    let delIndex = parseInt(prompt("Enter index of Todo to delete"));
+    while (Number.isNaN(delIndex)) {
+      delIndex = parseInt(
+        prompt("You didn't choice number. Enter index of Todo to delete")
+      );
+    }
+    if (!Number.isNaN(delIndex)) {
+      console.log(`Todo[${delIndex}] ${toDo[delIndex]} removed`);
+      const isdeleted = toDo.splice(delIndex, 1);
+    }
   }
   userInput = prompt("What would you like to do?");
 }
