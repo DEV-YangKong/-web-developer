@@ -14,12 +14,13 @@ while (userInput !== "quit" && userInput !== "q") {
     console.log("******************************");
   } else if (userInput === "del") {
     let delIndex = parseInt(prompt("Enter index of Todo to delete"));
-    while (Number.isNaN(delIndex)) {
+    while (Number.isNaN(delIndex) || delIndex >= toDo.length) {
+      console.log(`Unknown Index. You Choose ${delIndex}`);
       delIndex = parseInt(
-        prompt("You didn't choice number. Enter index of Todo to delete")
+        prompt("Unknown Index. Enter index of Todo to delete")
       );
     }
-    if (!Number.isNaN(delIndex)) {
+    if (!Number.isNaN(delIndex) || delIndex < toDo.length) {
       console.log(`Todo[${delIndex}] ${toDo[delIndex]} removed`);
       const isdeleted = toDo.splice(delIndex, 1);
     }
