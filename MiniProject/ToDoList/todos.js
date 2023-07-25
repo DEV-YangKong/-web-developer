@@ -22,7 +22,7 @@ while (userInput !== "quit" && userInput !== "q") {
     }
     if (!Number.isNaN(delIndex) || delIndex < toDo.length) {
       console.log(`Todo[${delIndex}] ${toDo[delIndex]} removed`);
-      const isdeleted = toDo.splice(delIndex, 1);
+      const isDeleted = toDo.splice(delIndex, 1);
     }
   }
   userInput = prompt("What would you like to do?");
