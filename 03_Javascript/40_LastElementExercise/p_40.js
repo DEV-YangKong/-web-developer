@@ -7,4 +7,4 @@ function lastElement(number) {
   }
 }
 
-// 자스에서는 배열 마지막 요소를 부를 떄 array[-1] 이 아니라 array[array.length -1] 로 해야함
+//  배열 마지막 요소를 부를 떄 array[-1] 이 아니라 array[array.length -1] 로 해야함
