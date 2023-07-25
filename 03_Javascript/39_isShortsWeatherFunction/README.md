@@ -1,0 +1,16 @@
+# isShortsWeather Function
+
+I often struggle to know whether I should wear shorts or pants on a given day.<br/>
+(this is a complete lie. It's really not that hard to decide.)<br/>
+Please help me decide by writing me a function called isShortsWeather.<br/>
+
+- It should accept a single number argument, which we will call temperature(but you can name it whatever you want, of course).
+
+- If temperature is greater than or equal to 75, return true.
+
+- Otherwise, return false.
+
+- This exercise assumes temperature is in Fahrenheit. I apologize to all my Celsius-using students!
+  - isShortsWeather(80) //true
+  - isShortsWeather(48) //false
+  - isShortsWeather(75) //true
