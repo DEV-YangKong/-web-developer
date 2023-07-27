@@ -7,6 +7,9 @@
 // 화살표 함수
 const allEvens = (num) => num.every((num) => num % 2 === 0);
 
+// 더 간단 하게도 가능!
+// const allEvens = num => num.every(num => num % 2 === 0);
+
 // 테스트
 console.log(allEvens([2, 4, 6, 8])); // true
 console.log(allEvens([1, 4, 6, 8])); // false
