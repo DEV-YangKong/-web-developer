@@ -1,0 +1,15 @@
+body {
+    font-size: 100%;
+}
+
+h1 {
+    font-family: Arial;
+}
+
+p {
+    font-size: 1em;
+}
+
+#small {
+    font-size: 0.5em;
+}
